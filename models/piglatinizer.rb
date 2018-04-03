@@ -1,5 +1,5 @@
 class PigLatinizer
-  VOWEL = [a,o,e,i,u]
+  VOWEL = ['a','o','e','i','u']
   def piglatinize(str)
     result = ''
     if VOWEL.include?(str[0])
